@@ -1,0 +1,29 @@
+.navbar {
+  background: rgb(255, 187, 14);
+
+  display: flex;
+  align-items: center;
+}
+
+.navbar h1 {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  align-content: center;
+  color: black;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.navbar-buttons {
+  text-align: right;
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+.navbar-buttons .btn {
+  padding: 10px 15px;
+  background-color: rgb(255, 187, 14);
+  color: black;
+}

@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  height: 100%;
+  line-height: 1.4;
+  background: url("img/5.jpg");
+  background-size: 1400px 800px;
+}
+
+hr {
+  height: 1px;
+  border: none;
+
+  margin: 30px 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.app-intro h2 {
+  text-align: center;
+  text-shadow: black;
+  font-size: 40px;
+}
+
+.app-intro p {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-left: 5px;
+  background: rgb(255, 187, 14);
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  border: none;
+}
+
+.btn:hover {
+  background: rgb(255, 187, 14);
+  cursor: pointer;
+  color: black;
+}
